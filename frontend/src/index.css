@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@layer utilities {
+  .ambient-shadow { box-shadow: 0 10px 30px rgba(43, 65, 98, 0.08); }
+  .elevated-shadow { box-shadow: 0 20px 40px rgba(43, 65, 98, 0.12); }
+  .glow-shadow { box-shadow: 0 0 40px rgba(88, 255, 230, 0.2); }
+}
+
+body {
+  background-color: #F8F9FA;
+}

@@ -136,6 +136,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://rafael-caalam-rafael-caalam-swapwis.vercel.app", # I-add ito nang saktong ganito
 ]
 
+CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [

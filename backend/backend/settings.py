@@ -133,12 +133,10 @@ STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://rafael-caalam-rafael-caalam-swapwis.vercel.app", # I-add ito nang saktong ganito
+    "https://rafael-caalam-rafael-caalam-swapwis.vercel.app",
 ]
-
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
-
 CSRF_TRUSTED_ORIGINS = [
     "https://rafael-caalam-rafael-caalam-swapwis.vercel.app",
 ]
